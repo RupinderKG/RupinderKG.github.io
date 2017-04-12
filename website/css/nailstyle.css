@@ -1,0 +1,9 @@
+#siteHead{
+  color: pink;
+}
+body {
+background: url("website-index.jpg");
+/*background-size: cover;
+background-repeat: repeat-y; */
+color: white;
+}
