@@ -2,13 +2,13 @@
   color: pink;
 }
 body {
-background: url("website-index.jpg");
+background: url("gradient-background.jpg");
 /*background-size: cover;
 background-repeat: repeat-y; */
 color: white;
 }
 .Pages-background {
-  background: url("gradientbackground.jpg")
+  background: url("website-index.jpg")
 }
 ul {
    list-style-type: none;
