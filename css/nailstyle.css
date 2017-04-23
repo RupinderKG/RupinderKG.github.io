@@ -57,3 +57,13 @@ img {
   opacity: 0.6;
   filter: alpha(opacity=40);
 }
+.Button-Styling {
+
+   /*width: 84px;
+   height: 45px;*/
+   background: transparent;
+   border: none;
+   color:#F54F78;
+   font-size:20px;
+   font-family: 'Handlee', cursive;
+}
