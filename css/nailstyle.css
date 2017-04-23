@@ -50,3 +50,10 @@ img {
 	border-radius: 15px 15px 15px 15px;
 	padding: 7px 10px 10px 7px;
 }
+.Pink-Box {
+  background-color: #F087A1;
+  padding: 10px;
+  color: white;
+  opacity: 0.6;
+  filter: alpha(opacity=40);
+}
