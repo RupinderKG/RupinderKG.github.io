@@ -5,11 +5,12 @@ body {
 background: url("gradient-background.jpg");
 background-size: cover;
 /*background-repeat: repeat-y; */
-color: white;
+color: #F54F78;
 font-family: 'Raleway', sans-serif;
 }
 .Pages-background {
-  background: url("website-index.jpg")
+  background: url("website-index.jpg");
+  color: white;
 }
 ul {
    list-style-type: none;
