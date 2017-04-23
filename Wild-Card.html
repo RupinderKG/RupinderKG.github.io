@@ -1,28 +1,81 @@
-<!DOCTYPE>
- <html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <link rel="stylesheet" type="text/css" href="css/nailstyle.css">
     <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title> </title>
   </head>
   <body>
     <button class="Button-Styling"><a href="index.html">Nail Metaverse</a></button>
     <center>
     <h1> Nail Art Matcher </h1>
-     <form method="post" name="contact_form"
-       action="third.php">
-        Your Name:
-       <input type="text" name="name">
-       Email Address:
-       <input type="text" name="email">
-      Message:
-      <textarea name="message"></textarea>
-     <input type="submit" value="Submit">
-   </form>
+
+<div id="stylized" class="myform">
+
+<form id="form1" id="form1" action="third.php" method="POST">
+
+    <label>Name
+        <span class="small">Add your name</span>
+    </label>
+<input type="text" name="name">
+    <label>Email
+        <span class="small">Enter a Valid Email</span>
+    </label>
+<input type="text" name="email">
+    <label>Phone
+        <span class="small">Add a Phone Number</span>
+    </label>
+<input type="text" name="phone">
+
+<br />
+<br />
+
+    <label>Website
+        <span class="small">Your Website</span>
+    </label>
+ <input type="text" name="website">
+
+    <label>Priority
+        <span class="small">Priority Level  </span>
+    </label>
+
+<select name="priority" size="1">
+<option value="Low">Low</option>
+<option value="Normal">Normal</option>
+<option value="High">High</option>
+<option value="Emergency">Emergency</option>
+</select>
+<br />
+<br />
+<br />
+    <label>Type
+        <span class="small">Type of Contact</span>
+    </label>
+<select name="type" size="1">
+<option value="update">Website Update</option>
+<option value="change">Information Change</option>
+<option value="addition">Information Addition</option>
+<option value="new">New Products</option>
+</select>
+<br />
+<br />
+<br />
+
+
+    <label>Message
+        <span class="small">Type Your Message</span>
+    </label>
+<textarea name="message" rows="6" cols="25"></textarea><br />
+
+    <button type="submit" value="Send" style="margin-top:15px;">Submit</button>
+<div class="spacer"></div>
+
+</form>
+
+</div>
+
    <img id= "Gold-Nail" src="images/mirrorednail.jpg" alt="Person using VR nail headset" height="400" width="600">
     </center>
-  <div>
-  </div>
-    <script src="third.js"> </script>
   </body>
   </html>
