@@ -7,6 +7,9 @@ background: url("website-index.jpg");
 background-repeat: repeat-y; */
 color: white;
 }
+.Pages-background {
+  background: url("gradientbackground.jpg")
+}
 ul {
    list-style-type: none;
    margin: 0;
